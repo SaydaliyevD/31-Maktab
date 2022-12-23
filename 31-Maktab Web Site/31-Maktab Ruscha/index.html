@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31-Школа</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://31-maktab-ru.netlify.app">31-Школа<i class='bx bx-buildings'></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#main">Домашная Страница<i class='bx bx-home' ></i> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">О Школе<i class='bx bx-buildings'></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" active aria-current="page" href="#cal">Коммуникация<i class='bx bxs-phone'></i> </a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" active aria-current="page" href="#message">Сообщения<i class='bx bx-message-dots' ></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" active aria-current="page" href="#blogs">Новости<i class='bx bx-news'></i></a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Выберите язык<i class='bx bx-world'></i>
+          </a>
+          
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://31-maktab-ru.netlify.app">Рус</a></li>
+            <li><a class="dropdown-item" href="https://31-maktab-eng.netlify.app">Анг</a></li>
+            <li><a class="dropdown-item" href="https://31-maktab-uz.netlify.app">Узб</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Поиск </button>
+      </form>
+    </div>
+  </div>
+</nav>
+<section id="main">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./Images/banner.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./Images/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/banner3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+<section id="about" class="bg-warning"><br><br>
+    <div class="container ">
+    <div class="row">
+        <div class="col">
+            <h2>О нашей школе</h2>
+            <p>31-Средняя общеобразовательная школа работает с 1950 года. Школа состояла из одного корпуса до 2013 года, а затем был построен и сдан в эксплуатацию нашим государством новый корпус. Сейчас в 31-й школе один корпус, спортзал и стадионы!</p>
+        </div>
+        <div class="col">
+            <br>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div><br>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div><br>
+              <div class="progress">
+                <div class="progress-bar bg-dark" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div><br>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+        </div>
+        <div class="col">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.13080861258!2d67.86396840194982!3d40.169587241063645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b29125b68eef53%3A0x4194e7990aa9395c!2s31-maktab!5e1!3m2!1sru!2s!4v1671367811594!5m2!1sru!2s" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <br><br>
+</div>
+</section>
+<section id="cal"></section><br><br>
+
+    <div class="container border border-warning p-5">
+    <h1 class="text-center" id="#cal">Коммуникация</h1><br>
+    <div class="row">
+        <div class="col">
+            <div class="card bg-warning" style="width: 18rem;">
+                <i class='bx bxs-phone card-img-top' style="font-size: 15rem;"></i>
+                <div class="card-body">
+                  <h5 class="card-title ">Телефонный номер</h5>
+                  <p class="card-text ">+998910257978</p>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card bg-warning" style="width: 18rem;">
+                <i class='bx bxs-location-plus card-img-top' style="font-size: 15rem;"></i>
+                <div class="card-body">
+                  <h5 class="card-title ">Место расположения</h5>
+                  <p class="card-text "><a href="https://goo.gl/maps/s3hW1RGRi1JgZYof7">Нажмите, чтобы просмотреть</a></p>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card bg-warning" style="width: 18rem;">
+                <i class='bx bxs-envelope card-img-top' style="font-size: 15rem;"></i>
+                <div class="card-body">
+                  <h5 class="card-title ">Адрес электронной почты</h5>
+                  <p class="card-text ">kydanza1@gmail.com</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+</section><br><br>
+<section id="message" class="bg-warning">
+    <div class="container "><br><br>
+        <h1 class="text-center">Для сообщений</h1>
+        <label class="form-label">Ваше имя</label>
+          <input class="form-control" type="text" placeholder="Введите Ваше имя" aria-label="default input example">
+        <br>
+        <label class="form-label">Ваш возраст</label>
+        <input type="number" class="form-control" placeholder="Введите свой возраст"><br>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Ваш электронный адрес</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="имя@example.com">
+          </div>
+          
+         
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Введите сообщение</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <br>
+          <button class="btn btn-dark" onclick="alert('Ваше сообщение отправлено!!!')">Отправка</button>
+          <br><br>
+    </div>
+
+</section>
+<section id="blogs" ><br><br>
+    <div class="container text-center">
+        
+        <div class="border border-warning  p-5">
+            <h1>Новости</h1><br>  
+        <div class="row">
+            <div class="col border bg-warning rounded-2"><br>
+                <iframe width="280" height="157,5" src="https://www.youtube.com/embed/DKB_D5_yC9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Месячник прикладных наук всерьез стартовал в 31 школе ХТБ Шароф-Рашидовского района.</p>
+            </div>
+            <div class="col border bg-warning rounded-2"><br>
+                <iframe width="280" height="157,5" src="https://www.youtube.com/embed/gpD_9iFd-Tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Школа 31 — еще одна отличная мелодия в исполнении Шукуровой Дильнозы.</p>
+            </div>
+            <div class="col border bg-warning rounded-2     "><br>    
+                <iframe width="280" height="157,5" src="https://www.youtube.com/embed/um1Wr4lgUR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Видео, подготовленное 31-й школой по случаю Дня памяти и благодарности 9 мая</p>
+            </div>
+        </div><br>
+        <div class="text-center">
+            <button class="btn btn-warning"><a href="https://www.youtube.com/@dilshodabdusattorov9662" style="text-decoration: none; text-transform: capitalize;">Посмотреть на ютубе</a></button>
+        </div>
+    </div>
+    </div>
+    </div>
+</section><br><br>
+<footer class="bg-dark"><br><br>
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+                <h5>Для объяснения</h5>
+                <p>31-я школа, безусловно, будет выпускать замечательных людей в будущем.</p>
+            </div>
+            <div class="col">
+                <h5>31-Школа</h5>
+                <p>Домашняя страница</p>
+                <p>О нашей школе</p>
+                <p>Фотографии с мероприятий</p>
+                <p>Связаться с нами</p>
+                
+            </div>
+            <div class="col ">
+                <h5>О разработчике</h5>
+                <p>Сайт разработан Сайдалиевым Дурбеком, учеником 9 класса 31 школы.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col ">
+                <p>Авторское право &copy; 2022 -  Дурбек Сайдалиев</p>
+            </div>
+            
+            <div class="col ">
+                <span>Для справок </span><span>+998(91) 025-79-78 <a href="https://www.instagram.com/kydanza/"><i class='bx bxl-instagram' style="font-size: 15px;color: #fff;" ></i></a><a href="https://t.me/kydanza/"><i class='bx bxl-telegram' style="font-size: 15px;color: #fff;" ></i></a> </span>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+</body>
+</html>
