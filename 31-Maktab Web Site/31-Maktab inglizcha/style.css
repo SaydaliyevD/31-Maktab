@@ -1,0 +1,16 @@
+.card .bx{
+    transition: 0.5s;
+}
+.card .bx:hover{
+    margin-top: 10px;
+}
+#blogs > .container > .row >  .col > p{
+    font-size: 20px;
+}
+footer
+{
+    color: #fff;}
+a{
+    text-decoration: none;
+    color: #000;
+}
